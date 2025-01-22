@@ -10,7 +10,7 @@
     background-color: blue;
 }
 
-:root{
+:root {
     --background-color: darkblue;
     --img-height: auto;
     --nav-padding: 10px;
