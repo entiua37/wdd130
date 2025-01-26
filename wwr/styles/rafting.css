@@ -1,0 +1,27 @@
+
+
+:root {
+    --primary-color: #dbd3d8;
+    --secondary-color: #716a5c;
+    --accent1-color: #0f1a20;
+    --accent2-color: #b07156;
+    --heading-font: "IBM Plex Sans", serif;
+    --text-font:"IBM Plex Sans",serif;
+
+}
+body {
+    font-family: var(--text-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
