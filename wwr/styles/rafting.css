@@ -41,7 +41,7 @@ header, main, footer {
     top: 1rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     opacity: 0.9;
 
     
@@ -53,7 +53,7 @@ header, main, footer {
     top: 15rem;
     left: 2rem;
     right: 2rem;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     opacity: 0.9;
 
 }
