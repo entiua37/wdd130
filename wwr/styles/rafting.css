@@ -25,3 +25,40 @@ header, main, footer {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+ .hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--secondary-color);
+
+    
+    
+}
+
+.hero article {
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+    right: 2rem;
+    background-color: var(--secondary-color);
+
+}
+
+.hero article img {
+    position: relative;
+    float: right;
+    margin: 2rem;
+    width: 20rem;
+}
