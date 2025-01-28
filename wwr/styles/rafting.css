@@ -26,6 +26,12 @@ header, main, footer {
     margin: 0 auto;
 }
 
+header {
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
  .hero {
     position: relative;
 }
