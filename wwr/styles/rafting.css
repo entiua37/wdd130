@@ -105,17 +105,21 @@ footer {
     border-top: 1px solid#000;
     margin-bottom: 15px;
     border-bottom: 1px solid#000;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
    
 
     
 }
 
-.footer p {
-   display: flex;
+footer p{
+   align-self: center;
+   grid-column: 3 / 3;
 }
 .sociallinks{
-   
+    align-self: center;
+    grid-column: 4 / 4
+
 
 }
  .hero {
