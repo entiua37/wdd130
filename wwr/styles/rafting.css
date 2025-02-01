@@ -55,27 +55,34 @@ nav a {
     color: var(--accent1-color) !important;
 }
 
-.history {
+.history{
     margin: 1rem auto;
     background-color: var(--primary-color);
     display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .history h2 {
-    align-self: center;
+    height: 100px;
+    width: none;
+    align-self: flex-start;
+    text-align: center;
     order: 2;
     
    
 }
 
 .p1 {
+    min-height: 50px;
+    min-width: 30px;
+    align-self: center;
     order: 0;
 
 }
 
 .p2 {
+    min-height: 50px;
+    min-width: 30px;
+    align-self: center;
     order: 3;
 }
 
