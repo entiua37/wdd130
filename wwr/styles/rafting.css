@@ -59,6 +59,7 @@ nav a {
     margin: 1rem auto;
     background-color: var(--primary-color);
     display: flex;
+    flex-direction: row;
 }
 
 .history h2 {
@@ -76,7 +77,7 @@ nav a {
 }
 
 .p1 {
-    margin: 1rem auto;
+    margin: 1.5rem;
     min-height: 50px;
     min-width: 30px;
     align-self: center;
@@ -85,7 +86,7 @@ nav a {
 }
 
 .p2 {
-    margin: 1rem auto;
+    margin: 1.5rem;
     min-height: 50px;
     min-width: 30px;
     align-self: center;
