@@ -28,37 +28,39 @@ header, main, footer {
 
 header {
     margin: 1rem auto;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: -1 / 1;
     align-items: center;
-    border-bottom: 1px solid var(--accent1-color);
+   
     
 }
 
 header img {
-    margin: 0 0.25rem 0 1rem;
+    margin: 0 0.25rem 0 5rem;
     width: 200px;
     height: auto;
+    color: var(--primary-color);
 }
 
 nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
+}
 
+nav a {
+    color: var(--accent1-color) !important;
 }
 
 .history {
     margin: 1rem auto;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-    
-
 }
 
 .history h2 {
@@ -102,9 +104,9 @@ figcaption {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid#000;
+    border-top: 1px solid var(--accent1-color);
     margin-bottom: 15px;
-    border-bottom: 1px solid#000;
+    border-bottom: 1px solid var(--accent1-color);
     display: grid;
     grid-template-columns: repeat(5, auto);
    
