@@ -59,15 +59,11 @@ nav a {
     margin: 1rem auto;
     background-color: var(--primary-color);
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .history h2 {
-    margin-top: 0;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-bottom: auto;
-    align-self: flex-start;
     text-align: center;
     order: 2;
     
@@ -75,18 +71,12 @@ nav a {
 }
 
 .p1 {
-    margin: 1.5rem;
-    min-height: 50px;
-    min-width: 30px;
     align-self: center;
     order: 0;
 
 }
 
 .p2 {
-    margin: 1.5rem;
-    min-height: 50px;
-    min-width: 30px;
     align-self: center;
     order: 3;
 }
