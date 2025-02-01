@@ -62,6 +62,10 @@ nav a {
 }
 
 .history h2 {
+    margin-top: 0;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: auto;
     height: 100px;
     width: none;
     align-self: flex-start;
@@ -72,6 +76,7 @@ nav a {
 }
 
 .p1 {
+    margin: 1rem auto;
     min-height: 50px;
     min-width: 30px;
     align-self: center;
@@ -80,6 +85,7 @@ nav a {
 }
 
 .p2 {
+    margin: 1rem auto;
     min-height: 50px;
     min-width: 30px;
     align-self: center;
