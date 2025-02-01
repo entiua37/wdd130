@@ -67,8 +67,6 @@ nav a {
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: auto;
-    height: 100px;
-    width: none;
     align-self: flex-start;
     text-align: center;
     order: 2;
