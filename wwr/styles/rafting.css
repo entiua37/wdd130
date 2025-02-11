@@ -45,10 +45,8 @@ header img {
     color: var(--primary-color);
 }
 /* This is for the index */
-form{
-    width: 1000px;
-    height: 300px;
-    background-color: var(--primary-color); 
+.index-section{
+     display: grid;
 }
 nav{
     display: flex;
