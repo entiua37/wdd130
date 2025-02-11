@@ -46,8 +46,29 @@ header img {
 }
 /* This is for the index */
 .index-section{
-     display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--primary-color)
 }
+
+.index-form{
+    margin: 1rem;
+    text-align: center;
+}
+.trips-index{
+    margin: 1rem;
+    text-align: center;
+   
+}
+
+.index-article{
+    margin: 1rem;
+    grid-column: 3 / 4;
+    text-align: center;
+    gap: 50px;
+   
+}
+
 nav{
     display: flex;
     flex-wrap: wrap;
