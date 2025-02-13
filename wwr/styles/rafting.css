@@ -11,6 +11,7 @@
 }
 body {
     font-family: var(--text-font);
+    background-color: var(--primary-color);
 }
 
 h1, h2, h3 {
@@ -25,16 +26,17 @@ a {
 header, main, footer {
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 header {
     margin: 1rem auto;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: -1 / 1;
     align-items: center;
-   
+    
     
 }
 
@@ -74,16 +76,109 @@ header img {
 
 /* This is for Trip */
 .trip{
+    border: solid var(--accent1-color);
+    background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    color: var(--primary-color)
+    
+    
+    
+    
+}
+
+.kids{
+    
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.image1{
+    text-align: center;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    border: solid var(--primary-color);
+    background-color: var(--accent1-color);   
 }
 
 .trip1{
-    
-    
+    margin: 0 1rem;
+    width: auto;
+    padding: 1rem;
+    grid-column: 1/2;
+    grid-row: 3 / 4;
+    border: solid var(--accent1-color);
+    background-color: var(--primary-color);
+    color: var(--accent1-color)
 }
 
+.intermediate{
+    
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+
+.image2{
+    text-align: center;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    border: solid var(--primary-color);
+    background-color: var(--accent1-color); 
+}
+
+.trip2{
+    margin: 0 1rem;
+    width: auto;
+    padding: 1rem;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    border: solid var(--accent1-color);
+    background-color: var(--primary-color);
+    color: var(--accent1-color)
+}
+
+.advance{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+
+.image3{
+    text-align: center;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    border: solid var(--primary-color);
+    background-color: var(--accent1-color); 
+}
+
+.trip3{
+    margin: 0 1rem;
+    width: auto;
+    padding: 1rem;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4; 
+    border: solid var(--accent1-color);
+    background-color: var(--primary-color);
+    color: var(--accent1-color)
+}
+
+.button1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.button2{
+    text-align: center;
+}
+
+.button3{
+    text-align: center;
+}
 nav{
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +187,7 @@ nav{
 }
 
 nav a {
-    color: var(--accent1-color) !important;
+    color: var(--primary-color) !important;
 }
 
 .history{
@@ -198,4 +293,14 @@ footer p{
     float: right;
     margin: 2rem;
     width: 20rem;
+}
+
+.chat-icon {
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: var(--accent1-color);
+    color: var(--primary-color)
 }
