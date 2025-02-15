@@ -230,6 +230,12 @@ header img {
     text-align: center;
 }
 
+/* This is the contact us */
+
+.contact-form {
+    
+}
+
 nav{
     display: flex;
     flex-wrap: wrap;
