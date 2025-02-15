@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 header, main, footer {
     max-width: 1200px;
     margin: 0 auto;
@@ -76,7 +80,7 @@ header img {
     grid-row: 1 / 2;
     text-align: center;
     font-size: xx-large;
-    
+    padding-top: 2rem;
 }
 
 .index-book a{
