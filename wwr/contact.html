@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,7 @@
 
 <body>
     <header>
-        <img src="images/logo.jpg" alt="logo" width= "200">
+        <img src="images/logo.jpg" alt="logo" width="200">
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About us</a>
@@ -23,21 +24,57 @@
         </nav>
     </header>
     <main>
-        <form class="contact-form">
-            <legend>Contact Information</legend>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-            <label for="useremail">Email:</label>
-            <input type="email" id="useremail" name="useremail">
-            
-            <legend>Question</legend>
-            <label for="question"></label>
-            <input type="radio" name="question" value="general inquiry">General Inquiry</radio>
-            <input type="radio" name="question" value="reservation question">Reservation Question</radio>
-            <input type="radio" name="question" value="website suggestion">Website Suggestion</radio> 
-            <textarea id="message" name="message" rows="4" placeholder="Message"></textarea>
-            <button type="submit">Submit Poll</button>
-        </form>
+        <div class="contact-info">
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset>
+                    <legend>Inquiry</legend>
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="general" name="purpose">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="reservation" name="purpose">
+                    <label for="website"> Website Suggestion</label>
+                    <input type="radio" id="website" name="purpose">
+                    <textarea rows="4"></textarea>
+                </fieldset>
+                <label for="subscribe">Subscribe me</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <button type="submit">Send</button>
+            </form>
+            <section class="company-info">
+                <h2>Company Information</h2>    
+                <p>Address: 123st Ave Seattle, WA</p>
+                <p>Phone Number: +1 123 456 7890</p>
+                <p>Email: abcdef@gmail.com</p>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d204762.1134945931!2d-122.41646559196042!3d47.599480415091726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1739928337980!5m2!1sen!2sus"
+                        width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </div>
+        <h2>Meet Our Staff</h2>
+        <div class="employee">
+            <figure>
+                <img src="images/staff1.jpg" alt="staff1" width="200">
+                <figcaption>CEO</figcaption>
+            </figure>
+            <figure>
+                <img src="images/staff2.jpg" alt="staff2" width="200">
+                <figcaption>CFO</figcaption>
+            </figure>
+            <figure>
+                <img src="images/staff2.jpg" alt="staff2" width="200">
+                <figcaption>CDO</figcaption>
+            </figure>
+        </div>
     </main>
     <footer>
         <p>&copy;2025 | Raft the Neptunes | Edward Ntiua</p>
@@ -53,6 +90,7 @@
             </a>
         </div>
     </footer>
-    
+
 </body>
+
 </html>

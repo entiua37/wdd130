@@ -232,8 +232,16 @@ header img {
 
 /* This is the contact us */
 
-.contact-form {
-    
+.contact-info {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.employee {
+    display: flex;
+    justify-content: space-between;
 }
 
 nav{
