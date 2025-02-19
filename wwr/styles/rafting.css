@@ -233,17 +233,59 @@ header img {
 /* This is the contact us */
 
 .contact-info {
-    margin-top: 2rem;
+    margin: 1rem auto;
+    padding: 2rem;
+    border: solid var(--accent1-color);
+    background-color: var(--accent1-color);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
+.info {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: solid var(--primary-color);
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.company-info {
+    margin-top: 1rem;
+    padding: 1rem;
+    color: var(--primary-color);
+    border: solid var(--primary-color);
+    background-color: var(--accent1-color);
+    text-decoration: underline;
+}
 .employee {
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--primary-color);
     display: flex;
     justify-content: space-between;
 }
 
+.staff1 {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+.staff2 {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.staff3 {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
 nav{
     display: flex;
     flex-wrap: wrap;
